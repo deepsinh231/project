@@ -76,7 +76,7 @@ const Current_weather_data = () => {
                     citymain &&
                     <div className="">
                         <iframe src={datamap}
-                            width="600" height="450" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                            className='max-w-[900px] w-[900px] h-[600px]' allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         <iframe className='w-full max-h-96' ></iframe>
                     </div>
                     // <div style={{ height: '100vh', width: '100%' }}>
